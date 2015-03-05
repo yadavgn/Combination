@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinations", "Combinations\Combinations.csproj", "{7565AFC1-D59B-4CC7-B974-C365FFD50EC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{E276B6B0-0778-48B4-B61B-92F396AB55AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingApp", "SortingApp\SortingApp.csproj", "{9BCBC1A8-379E-4730-9F44-870847463BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{793B3AA6-B167-4DB0-A81B-3EB6809227D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,20 @@ Global
 		{7565AFC1-D59B-4CC7-B974-C365FFD50EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7565AFC1-D59B-4CC7-B974-C365FFD50EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7565AFC1-D59B-4CC7-B974-C365FFD50EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCBC1A8-379E-4730-9F44-870847463BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCBC1A8-379E-4730-9F44-870847463BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCBC1A8-379E-4730-9F44-870847463BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCBC1A8-379E-4730-9F44-870847463BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793B3AA6-B167-4DB0-A81B-3EB6809227D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793B3AA6-B167-4DB0-A81B-3EB6809227D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793B3AA6-B167-4DB0-A81B-3EB6809227D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793B3AA6-B167-4DB0-A81B-3EB6809227D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BCBC1A8-379E-4730-9F44-870847463BF4} = {E276B6B0-0778-48B4-B61B-92F396AB55AE}
+		{793B3AA6-B167-4DB0-A81B-3EB6809227D5} = {E276B6B0-0778-48B4-B61B-92F396AB55AE}
 	EndGlobalSection
 EndGlobal
