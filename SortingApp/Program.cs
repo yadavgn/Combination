@@ -11,14 +11,16 @@ namespace SortingApp
     {
         static void Main(string[] args)
         {
-            int[] array = {3, 4, 5, 6, 7, 5, 44, 52, 33, 23};
+            int[] array = {34, 14, 5, 6, 71, 5, 44, 52, 33, 23};
 
             var t = AlgoFactory<int>.GetSortingAlgo(AlgoType.Selection);
-            t.Sort(array);
+            //t.Sort(array);
 
-            t = AlgoFactory<int>.GetSortingAlgo(AlgoType.Bubble);
-            t.Sort(array);
+            //t = AlgoFactory<int>.GetSortingAlgo(AlgoType.Bubble);
+            //t.Sort(array);
 
+            t = AlgoFactory<int>.GetSortingAlgo(AlgoType.Merge);
+            t.Sort(array);
         }
     }
 }

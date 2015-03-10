@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SortingAlgorithms
 {
@@ -25,7 +22,7 @@ namespace SortingAlgorithms
 
                 Utility<T>.Swape(list, currIndex, smallIndex);
 
-                System.Diagnostics.Debug.Write("\n Pass { "+currIndex+" }");
+                Debug.Write("\n Pass { "+currIndex+" }");
                 DebugDiaglostics<T>.Print(list);
             }
             Debug.WriteLine("\nEnd of Selection sort. \n");

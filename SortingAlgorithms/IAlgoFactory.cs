@@ -20,7 +20,7 @@ namespace SortingAlgorithms
                 case AlgoType.Selection:
                     return new SelectionSort<T>();
                 case AlgoType.Merge:
-                    return null;
+                    return new MergeSort<T>();
             }
             return null;
         }
