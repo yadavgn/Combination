@@ -11,7 +11,7 @@ namespace SortingApp
     {
         static void Main(string[] args)
         {
-            int[] array = {34, 14, 5, 6, 71, 5, 44, 52, 33, 23};
+            int[] array = {71, 52, 44, 33,34,23, 14,  6,5,  4 };
 
             var t = AlgoFactory<int>.GetSortingAlgo(AlgoType.Selection);
             //t.Sort(array);

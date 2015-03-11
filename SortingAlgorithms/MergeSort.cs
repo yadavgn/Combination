@@ -12,8 +12,10 @@ namespace SortingAlgorithms
     {
         public IList<T> Sort(IList<T> list)
         {
+            Debug.WriteLine("Starting Merge sort.");
             if(list.Count > 1)
-                return Mergesort(list, 0, list.Count-1);
+                Mergesort(list, 0, list.Count-1);
+            Debug.WriteLine("\nEnd of Merge sort. \n");
             return list;
         }
 
